@@ -1,8 +1,9 @@
 package main
 
 func main() {
-	Variables()
-	Constants()
+	//DataTypes()
+	//Variables()
+	//Constants()
 	Operators()
 	Scoping()
 	Arrays()
@@ -10,4 +11,8 @@ func main() {
 	Maps()
 	Pointers()
 	FlowControl()
+	ControlFlow()
+	//LoopsAndBranches()
+	//LoopingCollections()
+	//StringFunctions()
 }
