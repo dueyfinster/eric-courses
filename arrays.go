@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Go always creates copies of arrays when passing as args
+
 func Arrays() {
 	normal_arrays()
 	two_d_arrays()

@@ -6,4 +6,5 @@ func main() {
 	Operators()
 	Scoping()
 	Arrays()
+	Slices()
 }
