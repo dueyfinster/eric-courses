@@ -8,4 +8,5 @@ func main() {
 	Arrays()
 	Slices()
 	Maps()
+	Pointers()
 }
