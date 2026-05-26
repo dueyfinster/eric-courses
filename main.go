@@ -9,4 +9,5 @@ func main() {
 	Slices()
 	Maps()
 	Pointers()
+	FlowControl()
 }
