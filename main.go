@@ -7,4 +7,5 @@ func main() {
 	Scoping()
 	Arrays()
 	Slices()
+	Maps()
 }
