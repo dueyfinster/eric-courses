@@ -1,9 +1,9 @@
 package main
 
 func main() {
-	//DataTypes()
-	//Variables()
-	//Constants()
+	DataTypes()
+	Variables()
+	Constants()
 	Operators()
 	Scoping()
 	Arrays()
@@ -12,7 +12,7 @@ func main() {
 	Pointers()
 	FlowControl()
 	ControlFlow()
-	//LoopsAndBranches()
-	//LoopingCollections()
-	//StringFunctions()
+	LoopsAndBranches()
+	LoopingCollections()
+	StringFunctions()
 }
