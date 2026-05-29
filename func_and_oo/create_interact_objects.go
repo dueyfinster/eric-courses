@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func CreateAndInteractWithObjects() {
-	fmt.Println()
+	_ = fmt.Println
 }

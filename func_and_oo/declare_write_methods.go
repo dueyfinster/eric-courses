@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func DeclareAndWriteMethods() {
-	fmt.Println()
+	_ = fmt.Println
 }

@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func DefineAndInitStructs() {
-	fmt.Println()
+	_ = fmt.Println
 }

@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func ReturnDataFunctions() {
-	fmt.Println()
+	_ = fmt.Println
 }

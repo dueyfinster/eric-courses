@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func VariadicFunctions() {
-	fmt.Println()
+	_ = fmt.Println
 }
