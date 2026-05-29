@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Function and OO examples")
+	FuncAndMethods()
+	OO()
+	DeclareFunctions()
+	PassingParamsToFunc()
+	ReturnDataFunctions()
+	VariadicFunctions()
+	DefineAndInitStructs()
+	DeclareAndWriteMethods()
+	WorkingWithInterfaces()
+	CreateAndInteractWithObjects()
 }
