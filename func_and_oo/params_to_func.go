@@ -11,7 +11,7 @@ import "fmt"
 // 	return x + y + z
 // }
 
-func add(x []int) int {
+func add3(x []int) int {
 	total := 0
 
 	for _, val := range x {
@@ -33,7 +33,7 @@ func PassingParamsToFunc() {
 	// fmt.Println(add(x, y, z))
 
 	s := []int{10, 20, 5}
-	fmt.Println(add(s))
+	fmt.Println(add3(s))
 
 	x := 5
 	y := 2
