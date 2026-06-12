@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"log"
 	"math"
 	"os"
 )
@@ -17,6 +18,7 @@ import (
 
 func HandlingErrorsInGo() {
 	OpenFile()
+	OpenFile2()
 }
 
 func OpenFile() {
@@ -39,3 +41,15 @@ func Volume(r float64) (float64, error) {
 }
 
 // Defer, Panic and Recover - avoids try/catch/finally
+
+func OpenFile2() {
+	// func Open(name string) (file *File, err error)
+	f, err := os.Open("myFile2.txt")
+	defer f.Close()
+
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	fmt.Println("file successfully opened:", f.Name())
+}
